@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Secular+One&family=Zilla+Slab&display=swap');
+
+
+:root {
+    ---primary-color: #67e8f9;
+    ---secondary-color: white;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.header{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.nav-container {
+    background-color: var(---primary-color);
+    color: var(---secondary-color);
+   text-align: center;
+   padding: 2rem;
+}
+
+.inline {
+    display: inline;
+    text-align: right;
+    padding: 0rem 1rem;
+}
+
+.output {
+
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    height: 250px;
+    border: black solid;
+}
+
+.input-box {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    width: 800px;
+    height: 250px
+}
+
+.button {
+    margin: auto;
+    padding: 1rem;
+    display: block;
+    background-color: var(---primary-color);
+    border-radius: 2rem;
+}
+
+.txt-output {
+    text-align: center;
+    padding: 1rem;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.icon-inline {
+    display: inline;
+    font-weight: bold;
+
+}
+
+.icon {
+    margin-left: 0;
+    max-width: 30px;
+    max-height: 30px;
+    padding: 2rem 2rem 0rem 2rem;
+}
+
+.footer {
+    margin: 0;
+    background-color: var(---primary-color);
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 2rem;
+    text-align: center;
+}
+
+.center
+{
+    text-align: center;
+}
