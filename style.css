@@ -9,7 +9,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    width: fit-content;
+    width: auto;
     block-size: fit-content;
 }
 
